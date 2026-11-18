@@ -1,56 +1,158 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
+title_id: about-me
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a senior undergraduate student in **Electrical Engineering** at **National Taiwan University**, currently an exchange student at the **University of Washington**. My research interests lie in **computer vision**, **robotics**, and **embodied AI**, particularly how intelligent systems can perceive, reason about, and interact with the physical world.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I have worked on research and projects across these areas. At NTU, I conduct research with **[Prof. Yu-Chiang Frank Wang](https://vllab.ee.ntu.edu.tw/ycwang.html)** on camera pose estimation under extremely low visual overlap, investigating how generated intermediate observations and geometric consistency affect 3D perception. At UW, I work with **[Prof. Jenq-Neng Hwang](https://people.ece.uw.edu/hwang/)** on autonomous robotics, developing scene-graph and spatial-memory modules for a healthcare  Unitree Quadruped Robot and exploring contact-aware world models for human-object interaction base on SuperMimic. My broader project experience includes contact-guided humanoid manipulation, vision-language-action models, and efficient video generation.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Beyond research, I enjoy exploring new technologies and participating in campus activities. I have performed in NTUEE Night's Light Dance, contributed to its software development team, and served as Student Affairs Director of the Country Youth Life Study Club, where I organized events and mentored incoming students. These experiences have strengthened my appreciation for creativity, collaboration, and learning from people with different perspectives.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## News
+{: #news}
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+* **[Sep. 2026]** Began exchange semester at the University of Washington.
+* **[Jun. 2026]** Won **2nd place (presentation)** and **3rd place (performance)** in the MediaTek Frame Generation Final Project Competition with *Life-RAFT*.
+* **[May 2026]** Won **3rd place** in the MakeNTU Logitech Challenge.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Research Experience
+{: #research-experience}
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">Healthcare Robotic Dog: Scene Graph and Spatial Memory</div>
+    <div class="cv-entry__date">Oct. 2026 – Present</div>
+  </div>
+  <div class="cv-entry__meta"><a href="https://ipl-uw.github.io/index.html">Information Processing Lab, UW</a></div>
+  <p class="cv-entry__body">Scene-graph modules for navigation and language-guided reasoning on a quadruped platform.</p>
+</div>
 
-**Markdown generator**
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">Low-Overlap Camera Pose Estimation with Generated Bridge Frames</div>
+    <div class="cv-entry__date">Feb. 2026 – Present</div>
+  </div>
+  <div class="cv-entry__meta"><a href="https://vllab.ee.ntu.edu.tw/">Vision and Learning Lab, NTU</a></div>
+  <p class="cv-entry__body">Intermediate-frame generation for low-overlap pose estimation with VGGT/DUSt3R; MEt3R-guided masking and consistency-based methods.</p>
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Education
+{: #education}
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">Exchange Student, University of Washington</div>
+    <div class="cv-entry__date">Sep. 2026 – Dec. 2026</div>
+  </div>
+  <div class="cv-entry__meta">Seattle, WA, USA</div>
+</div>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">B.S. in Electrical Engineering, National Taiwan University</div>
+    <div class="cv-entry__date">Sep. 2023 – Present</div>
+  </div>
+  <div class="cv-entry__meta">Taipei, Taiwan</div>
+  <p class="cv-entry__body">GPA: 4.17/4.3 | Rank: 32/255 (Top 12.5%)</p>
+</div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">Class of Science, Taipei Municipal Chien Kuo High School</div>
+    <div class="cv-entry__date">Sep. 2020 – Jun. 2023</div>
+  </div>
+</div>
+
+## Selected Projects
+{: #selected-projects}
+
+<div class="project-cards">
+  <div class="project-card project-card--featured">
+    <div class="project-card__media">
+      <img src="/images/projects/dfrft-teaser.jpg" alt="DFrFT chip architecture diagram and die layout">
+    </div>
+    <div class="project-card__content">
+      <div class="project-card__title">Multiplier-Free 32-Point DFrFT Accelerator</div>
+      <div class="project-card__meta">Feb. 2026 – Jun. 2026 · Advisor: Prof. Tzi-Dar Chiueh</div>
+      <p class="project-card__body">Designed a multiplier-free discrete fractional Fourier transform accelerator with CSD shift-and-add PEs and CORDIC engines, and completed full RTL-to-layout in UMC 0.18 µm. Achieved <strong>85 MHz</strong>, <strong>~0.04 mW</strong>, and <strong>2.208 mm²</strong> post-layout.</p>
+    </div>
+  </div>
+
+  <div class="project-card project-card--featured">
+    <div class="project-card__media">
+      <img src="/images/projects/life-raft-teaser.jpg" alt="Life-RAFT pipeline: RAFT flow, feature fusion, and 4K frame generation">
+    </div>
+    <div class="project-card__content">
+      <div class="project-card__title">Life-RAFT</div>
+      <div class="project-card__meta">May 2026 – Jun. 2026 · MediaTek Frame Generation Competition</div>
+      <p class="project-card__body">Built a lightweight 4K frame-generation pipeline using RAFT optical flow, backwarping, and geometric fusion from a 1080p frame plus neighboring 4K references. Won <strong>2nd place (presentation)</strong> and <strong>3rd place (performance)</strong>.</p>
+    </div>
+  </div>
+
+  <div class="project-card project-card--featured">
+    <div class="project-card__media">
+      <img src="/images/projects/contact-guided-teaser.jpg" alt="Training pipeline for contact-guided grasp and trajectory following policy">
+    </div>
+    <div class="project-card__content">
+      <div class="project-card__title">Contact-Guided Policy Learning for Humanoid Dexterous Manipulation</div>
+      <div class="project-card__meta">Oct. 2025 – Dec. 2025</div>
+      <p class="project-card__body">Trained a PPO policy for humanoid dexterous grasping using contact-based rewards. Predicted object contact maps from a single RGB image with Trellis2 and ContactGen to guide more stable, physically plausible grasps.</p>
+    </div>
+  </div>
+
+  <div class="project-card project-card--featured">
+    <div class="project-card__media">
+      <img src="/images/projects/recycle-teaser.jpg" alt="AI Smart Recycling Bin system workflow">
+    </div>
+    <div class="project-card__content">
+      <div class="project-card__title">AI Smart Recycling Bin</div>
+      <div class="project-card__meta">May 2026 – Jun. 2026</div>
+      <p class="project-card__body">Built an AIoT recycling system on Raspberry Pi 5 that classifies recyclables with a vision-language model. Integrated LINE LIFF, IOTA wallet rewards, and AWS for end-to-end user incentive tracking.</p>
+    </div>
+  </div>
+
+  <div class="project-card project-card--featured">
+    <div class="project-card__media">
+      <img src="/images/projects/bev-teaser.jpg" alt="VGGT multi-camera to point cloud to bird's-eye-view pipeline">
+    </div>
+    <div class="project-card__content">
+      <div class="project-card__title">VGGT-Based BEV Visualization</div>
+      <div class="project-card__meta">May 2026 – Jun. 2026 · Intelligent Vehicles</div>
+      <p class="project-card__body">Developed a training-free pipeline that reconstructs 3D scenes from six surround-view cameras with VGGT and projects them to bird’s-eye view. Recognized as a <strong>top-3</strong> final project in Intelligent Vehicles.</p>
+    </div>
+  </div>
+</div>
+
+## Leadership & Activities
+{: #leadership}
+
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">NTUEE Night — Performance & Technical Team</div>
+    <div class="cv-entry__date">Jan. 2025 – May 2026</div>
+  </div>
+  <p class="cv-entry__body">Coordinated hip-hop dance performances, designed costumes for Light Dance, and contributed to the software backend team. Combined creative collaboration with technical development to support student-led performances.</p>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">NTU iOS Club — Member</div>
+    <div class="cv-entry__date">Sep. 2025 – Jan. 2026</div>
+  </div>
+  <p class="cv-entry__body">Explored SwiftUI development and exchanged technical ideas with fellow students, expanding my interests in software development beyond academic coursework.</p>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry__header">
+    <div class="cv-entry__title">Student Affairs Director — Country Youth Life Study Club</div>
+    <div class="cv-entry__date">Sep. 2023 – Jun. 2024</div>
+  </div>
+  <p class="cv-entry__body">Recruited and mentored incoming students, organized social events and trips, and helped foster an inclusive and supportive student community.</p>
+</div>

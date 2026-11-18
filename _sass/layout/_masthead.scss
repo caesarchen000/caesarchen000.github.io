@@ -27,7 +27,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.25em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -36,6 +36,7 @@
 
     nav {
       z-index: 10;
+      width: 100%;
     }
 
     a {
@@ -43,6 +44,7 @@
     }
   }
 }
+
 
 .masthead__menu {
 
@@ -61,10 +63,15 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 0;
     font-weight: 700;
   }
 }
+
+.greedy-nav--simple .masthead__menu-item--lg {
+  padding-right: 0;
+}
+
 
 .masthead__menu-item.selected a {
   color: var(--global-text-color);

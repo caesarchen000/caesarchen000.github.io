@@ -179,7 +179,7 @@
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 0.65rem;
     padding: 0.5rem 0;
     color: var(--global-masthead-link-color);
     text-decoration: none;
@@ -314,6 +314,43 @@
 
       &:last-child {
         border-bottom: none;
+      }
+    }
+  }
+}
+
+/* Equal spacing between every nav item (must override .greedy-nav table layout) */
+.greedy-nav.greedy-nav--simple {
+  button,
+  .hidden-links {
+    display: none !important;
+  }
+
+  .visible-links {
+    display: flex !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 1.35rem; /* exact same space between every item */
+
+    li {
+      display: block !important;
+      flex: 0 0 auto;
+      white-space: nowrap;
+      padding: 0 !important;
+      vertical-align: middle;
+
+      a {
+        margin: 0 !important;
+        padding: 0.5rem 0;
+      }
+
+      &:first-child a,
+      &:last-child a {
+        margin: 0 !important;
       }
     }
   }
